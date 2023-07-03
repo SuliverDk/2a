@@ -29,7 +29,8 @@ body {
 }
 
 .escola{
-    background-image: url (pescaria.jpg);
+    body style=background-image: url(pescaria.jpg)>
+    background-image:linear-gradient (#424E61,#16CFF8);
     color:white;
     display: flex;
     justify-content: center;
