@@ -3,10 +3,35 @@
     padding: 0;
 }
 body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: plum;
+}
+#rodape {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+#rodape img {
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    object-fit: cover; /* classe pra deixa a imagem com a proporção correta e não ficar achatada */
+}
+<div id="rodape">
+    <img src="pescaria.jpg"/> 
+</div>
+
+body {
     font-family: 'Poppins', sans-serif;
 }
 .cabecalho {
-    background-color: #424E61;
+    background-color: #FFB6C1;
     color: black;
     display: flex;
     justify-content: space-around;
